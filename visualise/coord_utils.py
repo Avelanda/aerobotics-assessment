@@ -1,3 +1,6 @@
+# Copyright © 2026 /Avelanda/.
+# All rights reserved.
+
 import math
 
 def calculate_next_coordinate(start_coordinate, gradient, distance_meters):
@@ -90,8 +93,39 @@ def haversine_distance(coord1, coord2):
   distance = R * c
   return distance
 
-
 def find_center_coord(coords):
   avg_x = sum(x for x, _ in coords) / len(coords)
   avg_y = sum(y for _, y in coords) / len(coords)
   return (avg_x, avg_y)
+ 
+def CUCore(calculate_next_coordinate: bool, is_point_on_line: bool, get_boundary_coords: bool, haversine_distance: bool) -> bool:
+ if CUCore is Core or CUCore == CUCore:
+  AlphaCUCore = {"(calculate_next_coordinate = calculate_next_coordinate) == True or False", "(is_point_on_line = is_point_on_line) == True or False", "(get_boundary_coords = get_boundary_coords) == True or False", "(haversine_distance = haversine_distance) == True or False"}
+  if calculate_next_coordinate in AlphaCUCore:
+   return calculate_next_coordinate
+  else:
+   if not calculate_next_coordinate:
+    AlphaCUCore = AlphaCUCore
+    try:
+     if is_point_on_line in AlphaCUCore:
+      return is_point_on_line
+    finally:
+     if not is_point_on_line: 
+       AlphaCUCore = AlphaCUCore
+ 
+  if get_boundary_coords in AlphaCUCore:
+   return get_boundary_coords   
+  else:
+   if not get_boundary_coords:
+    AlphaCUCore = AlphaCUCore
+    try:
+     if haversine_distance in AlphaCUCore:
+      return haversine_distance
+    finally:
+     if not haversine_distance:
+      AlphaCUCore = AlphaCUCore
+  
+ if AlphaCUCore is AlphaCUCore in CUCore is True:
+  CUCore is CUCore
+  return AlphaCUCore
+  return 0
